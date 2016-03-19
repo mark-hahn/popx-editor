@@ -1,31 +1,29 @@
 {
-  "name": "popx-stdlib",
-  "version": "0.2.0",
-  "description": "Standard library of code modules for popx",
-  "main": "index.js",
+  "name": "popx-editor",
+  "version": "0.1.0",
+  "description": "flow diagram editor for the popx dataflow languagex",
+  "main": "src/popx-editor.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mark-hahn/popx-stdlib.git"
+    "url": "git+https://github.com/mark-hahn/popx-editor.git"
   },
   "keywords": [
     "popx",
-    "reactive",
-    "framework",
-    "standard library"
+    "editor",
+    "dataaflow",
+    "flow diagram"
   ],
   "author": "Mark Hahn <mark@hahnca.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mark-hahn/popx-stdlib/issues"
+    "url": "https://github.com/mark-hahn/popx-editor/issues"
   },
   "jshintConfig": {
     "esversion": 6,
     "loopfunc": true
   },
-  "homepage": "https://github.com/mark-hahn/popx-stdlib#readme",
+  "homepage": "https://github.com/mark-hahn/popx-editor#readme",
   "dependencies": {
-    "moment": "^2.11.2",
-    "mustache": "^2.2.1",
     "popx": "^0.1.2"
   }
 }
